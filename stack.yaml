@@ -1,0 +1,12 @@
+resolver: lts-21.17
+packages:
+- .
+
+extra-deps:
+- string-random-0.1.0.0
+
+# Override default flag values for local packages and extra-deps
+flags: {}
+
+# Extra package databases containing global packages
+extra-package-dbs: []
